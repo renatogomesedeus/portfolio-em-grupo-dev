@@ -1,0 +1,126 @@
+/*Renato section Inicio*/
+body {
+    overflow-x: hidden;
+}
+.card-largura {
+    max-width: 18rem;
+}
+
+.imagem-carrosel-um {
+    object-fit: cover;
+    object-position: 0 80%;
+    height: 400px;
+}
+
+.imagem-carrosel-dois {
+    object-fit: cover;
+    /*object-position: 0 80%;*/
+    height: 400px;
+}
+
+.fonte-titulo {
+    font-family: 'Arial', cursive;
+}
+
+.cor-especial {
+    color: black !important;    
+}
+
+div .botao-cor-especial {
+    background-color: silver;    
+    color: white;    
+}
+
+div .botao-cor-especial-modal {
+    background-color: darkred;
+    border: 1px solid darkred;
+    color: white; 
+}
+
+div .botao-cor-especial:hover {
+    padding: 10px 15px;
+    transition: all 0.2s ease-in;
+    background-color: black;    
+    color: white;    
+    border: none;
+    cursor: pointer;    
+}
+
+div.borda-cor-especial {
+    border: 1px solid rgb(89, 55, 200);
+}
+
+ img.card-posicao-imagem {
+    object-fit: cover;
+    /*object-position: 0 80%;*/ 
+    width: 20%;  
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+span {
+    color: white;
+}
+
+p a span:hover {
+    color: silver;
+    text-decoration: underline silver;
+}
+
+section img {
+    width: 100px;    
+}  
+.circulo-de-foto {
+ margin-bottom: 10px !important;
+}
+
+.lista-horizontal {
+    border: 1px solid red;
+    display: block;
+    float: left;
+}
+
+ img.imagem-habilidades {
+    width: 1000px;    
+    margin-top: -17% !important;
+}
+
+.margem-top-0 {
+    margin: -2% -2% !important;
+}
+/******Animação digitando inicio******/
+.animacao-texto::after {
+content: '|';
+margin-left: 5px;
+opacity: 1;
+animation: pisca .7s infinite;
+z-index: 1200;
+}
+
+.animacao-texto {
+    font-family: 'Rubik Wet Paint', cursiva, sans-serif !important;        
+}
+
+@keyframes pisca {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  } 
+ 
+}
+/******Animação digitando Fim*********/
+
+/*Renato section Fim*/
+
+/*ARLEY RICHARDS*/
+#icones-experiencias{
+    height: auto;
+    background-image: url('../src/img/universe-1566159_1920.jpg');
+ }
+
+
+
+
