@@ -184,6 +184,7 @@ img.imagem-habilidades {
     border: 1px solid #E7E7E7;
     background: #FFF;
     transition: .2s all ease;
+    height: 100%;
 }
 
 .service-container:hover {
