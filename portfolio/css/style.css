@@ -1,4 +1,12 @@
 /*Renato section Inicio*/
+/****fonte face****/
+@font-face {
+    font-family: Bandito;
+    src: url(../src/img/Bandito.woff);
+    src: url(../src/img/BADGRUNGE.woff);
+    src: url(../src/img/INFECTED.woff);
+}
+
 body {
     overflow-x: hidden;
 }
@@ -28,7 +36,8 @@ body {
 
 div .botao-cor-especial {
     background-color: silver;    
-    color: white;    
+    color: white;
+    border: none;    
 }
 
 div .botao-cor-especial-modal {
@@ -44,10 +53,6 @@ div .botao-cor-especial:hover {
     color: white;    
     border: none;
     cursor: pointer;    
-}
-
-div.borda-cor-especial {
-    border: 1px solid rgb(89, 55, 200);
 }
 
  img.card-posicao-imagem {
@@ -89,17 +94,33 @@ section img {
 .margem-top-0 {
     margin: -2% -2% !important;
 }
+
+.margem-left-modal {
+margin-left: -73% !important;
+margin-bottom: 5% !important;
+
+}
+div.margen1-correcao {    
+    margin-right: 80.7px !important;
+    
+}
+
+div.margen2-correcao {    
+    right: 38px;
+}
+
 /******Animação digitando inicio******/
 .animacao-texto::after {
-content: '|';
+content: 'I';
 margin-left: 5px;
 opacity: 1;
 animation: pisca .7s infinite;
 z-index: 1200;
 }
 
-.animacao-texto {
-    font-family: 'Rubik Wet Paint', cursiva, sans-serif !important;        
+div h1.animacao-texto {
+    font-family: "Bandito" !important;
+            
 }
 
 @keyframes pisca {
@@ -120,7 +141,6 @@ z-index: 1200;
     height: auto;
     background-image: url('../src/img/universe-1566159_1920.jpg');
  }
-
 
 
 
